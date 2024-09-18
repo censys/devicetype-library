@@ -1,0 +1,83 @@
+manufacturer: Tyan
+model: TD76B8058
+slug: tyan-td76b8058
+part_number: B8058T76X4-270TE4HR
+u_height: 2
+is_full_depth: true
+subdevice_role: null
+comments: |
+  This device type is for the Tyan Barebones TD76B8058 B8058T76X4-270TE4HR.
+  It's a 2U rackmount server with 4 CPU sockets and 8 PCI-E 4.0 slots.
+  
+console-ports:
+  - name: Serial Console
+    type: rj-45
+
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+  - name: PS2
+    type: iec-60320-c14
+
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth3
+    type: 1000base-t
+    mgmt_only: false
+
+device-bays:
+  - name: Bay 1
+  - name: Bay 2
+
+module-bays:
+  - name: Module Bay 1
+    position: 1
+
+power-outlets:
+  - name: PO1
+    type: iec-60320-c14
+  - name: PO2
+    type: iec-60320-c14
+
+front-ports:
+  - name: USB1
+    type: usb-a
+  - name: USB2
+    type: usb-a
+
+rear-ports:
+  - name: VGA1
+    type: vga
+
+cpu:
+  - name: CPU1
+  - name: CPU2
+  - name: CPU3
+  - name: CPU4
+
+memory:
+  - name: DIMM Slot 1
+  - name: DIMM Slot 2
+  - name: DIMM Slot 3
+  - name: DIMM Slot 4
+  - name: DIMM Slot 5
+  - name: DIMM Slot 6
+  - name: DIMM Slot 7
+  - name: DIMM Slot 8
+  - name: DIMM Slot 9
+  - name: DIMM Slot 10
+  - name: DIMM Slot 11
+  - name: DIMM Slot 12
+  - name: DIMM Slot 13
+  - name: DIMM Slot 14
+  - name: DIMM Slot 15
+  - name: DIMM Slot 16
+
