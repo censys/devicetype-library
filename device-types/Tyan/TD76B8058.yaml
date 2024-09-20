@@ -1,13 +1,13 @@
 ---
 manufacturer: Tyan
-model: TD76B8058
-slug: tyan-td76b8058
+model: TD76-B8058 Chassis
+slug: tyan-td76b8058-chassis
 part_number: B8058T76X4-270TE4HR
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
 comments: |
-  This device type is for the Tyan Barebones TD76B8058 B8058T76X4-270TE4HR.
+  This device type is for the Tyan Barebones TD76-B8058 B8058T76X4-270TE4HR.
   It's a 2U rackmount server with 4 CPU sockets and 8 PCI-E 4.0 slots.
 
 console-ports:
@@ -20,23 +20,29 @@ power-ports:
   - name: PS2
     type: iec-60320-c14
 
-interfaces:
-  - name: eth0
-    type: 1000base-t
-    mgmt_only: false
-  - name: eth1
-    type: 1000base-t
-    mgmt_only: false
-  - name: eth2
-    type: 1000base-t
-    mgmt_only: false
-  - name: eth3
-    type: 1000base-t
-    mgmt_only: false
+#interfaces:
+#  - name: eth0
+#    type: 1000base-t
+#    mgmt_only: false
+#  - name: eth1
+#    type: 1000base-t
+#    mgmt_only: false
+#  - name: eth2
+#    type: 1000base-t
+#    mgmt_only: false
+#  - name: eth3
+#    type: 1000base-t
+#    mgmt_only: false
 
 device-bays:
-  - name: Bay 1
-  - name: Bay 2
+  - name: Node 1
+    label: Upper Left Compute Node
+  - name: Node 2
+    label: Upper Right Compute Node
+  - name: Node 3
+    label: Bottom Left Compute Node
+  - name: Node 4
+    label: Bottom Right Compute Node
 
 module-bays:
   - name: Module Bay 1
