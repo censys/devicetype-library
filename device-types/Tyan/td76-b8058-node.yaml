@@ -25,7 +25,7 @@ interfaces:
     type: 1000base-t
     mgmt_only: false
   - name: con6
-    type: NVIDIA MCX631432AN-ADAB ConnectX-6 NIC
+    type: 25gbase-x-sfp28
     mgmt_only: false
 
 #  - name: eth1
