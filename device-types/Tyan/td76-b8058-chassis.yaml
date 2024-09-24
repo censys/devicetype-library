@@ -36,13 +36,18 @@ power-ports:
 
 device-bays:
   - name: Node 1
-    label: Upper Left Compute Node
+    label: Upper Left Data Node
   - name: Node 2
-    label: Upper Right Compute Node
+    label: Bottom Left Data Node
   - name: Node 3
-    label: Bottom Left Compute Node
+    label: Upper Right Data Node
   - name: Node 4
-    label: Bottom Right Compute Node
+    label: Bottom Right Data Node
+
+interfaces:
+  - name: ipmi
+    type: 1000base-t
+    mgmt_only: true
 
 module-bays:
   - name: Module Bay 1
